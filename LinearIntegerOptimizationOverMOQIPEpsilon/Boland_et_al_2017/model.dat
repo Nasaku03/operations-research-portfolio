@@ -1,0 +1,28 @@
+data;
+set vare := v1 v2 v3;
+set con := c1 c2;
+set objQ := q1;
+set objL := l1;
+
+param A: v1 v2 v3 :=
+c1 2 3 1
+c2 1 2 3;
+param b :=
+c1 8
+c2 8;
+param Q: v1 v2 v3 :=
+v1 3 3 1
+v2 2 7 1
+v3 0 1 6;
+param cm :=
+v1 -1
+v2 -2
+v3 1;
+param c :=
+v1 -2
+v2 -1
+v3 2;
+param y0 := 30;
+param y1 := -255;
+param y2 := 2;
+param y3 := -255;
