@@ -1,0 +1,231 @@
+ITER_MAX = 1
+ITER_EBTS = 20
+TABU_TENURE = 12
+i Global = 0
+Solution Initiale
+	S0  : 
+{{2 4 7 8 9 } {1 3 6 } {0 5 } }
+	cout  = 17
+NEW ITERATION
+	S0  : 
+{{2 4 7 8 9 } {1 3 6 } {0 5 } }
+Alternative Solutions : 
+[]
+Nombre des Alternatives : 0
+Evaluations Alternative : 
+{}index alternative : 
+[]
+treated Solutions : 
+[]
+Nombre des Treated : 0
+Evaluations Treated : 
+{}index treated : 
+[]
+K = 
+[[1 2 -1 0 ] 
+[2 -1 1 0 ] 
+[-1 2 0 0 ] 
+[3 -1 0 0 ] 
+[-1 1 1 0 ] 
+[2 1 -1 0 ] 
+[2 -1 2 0 ] 
+[-1 2 2 0 ] 
+[-1 1 0 0 ] 
+[-1 1 0 0 ] 
+]
+B = 
+[[1 2 0 1 ] 
+[3 0 2 2 ] 
+[0 3 2 3 ] 
+[5 0 0 2 ] 
+[0 2 3 3 ] 
+[3 1 0 1 ] 
+[1 0 1 2 ] 
+[0 3 1 3 ] 
+[0 3 2 3 ] 
+[0 3 2 3 ] 
+]
+NS1 not empty
+Choix : 3	| 2
+NEW ITERATION
+	S0  : 
+{{2 4 7 8 9 } {0 3 5 } {1 6 } }
+Alternative Solutions : 
+[]
+Nombre des Alternatives : 0
+Evaluations Alternative : 
+{}index alternative : 
+[]
+treated Solutions : 
+[{{0 5 },{2 4 7 8 9 },{1 3 6 },}
+]
+Nombre des Treated : 1
+Evaluations Treated : 
+{17 }index treated : 
+[<0, 17>, ]
+K = 
+[[1 -1 2 0 ] 
+[2 1 -1 0 ] 
+[-1 1 1 0 ] 
+[3 -1 0 0 ] 
+[-1 2 0 0 ] 
+[2 -1 1 0 ] 
+[2 2 -1 0 ] 
+[-1 3 1 0 ] 
+[-1 0 1 0 ] 
+[-1 0 1 0 ] 
+]
+B = 
+[[2 0 1 2 ] 
+[2 1 0 1 ] 
+[0 2 3 3 ] 
+[5 0 0 2 ] 
+[0 3 2 3 ] 
+[3 0 2 2 ] 
+[-1 2 0 1 ] 
+[0 1 3 3 ] 
+[0 1 3 3 ] 
+[0 1 3 3 ] 
+]
+NS0 not empty
+Choix : 6	| 0
+NEW ITERATION
+	S0  : 
+{{0 3 5 8 9 } {2 4 6 7 } {1 } }
+Alternative Solutions : 
+[]
+Nombre des Alternatives : 0
+Evaluations Alternative : 
+{}index alternative : 
+[]
+treated Solutions : 
+[{{2 4 7 8 9 },{0 3 5 },{1 6 },}
+{{0 5 },{2 4 7 8 9 },{1 3 6 },}
+]
+Nombre des Treated : 2
+Evaluations Treated : 
+{17 17 }index treated : 
+[<1, 17>, ]
+K = 
+[[-1 2 1 0 ] 
+[1 2 -1 0 ] 
+[1 -1 1 0 ] 
+[-1 3 0 0 ] 
+[2 -1 0 0 ] 
+[-1 3 0 0 ] 
+[4 -1 0 0 ] 
+[3 -1 1 0 ] 
+[-1 1 0 0 ] 
+[-1 1 0 0 ] 
+]
+B = 
+[[0 4 0 3 ] 
+[0 1 0 0 ] 
+[1 0 2 2 ] 
+[0 3 2 3 ] 
+[3 0 1 2 ] 
+[0 4 2 3 ] 
+[3 0 1 2 ] 
+[6 0 2 2 ] 
+[0 2 2 3 ] 
+[0 2 2 3 ] 
+]
+NS1 not empty
+Choix : 0	| 2
+NEW ITERATION
+	S0  : 
+{{1 3 5 8 9 } {2 4 6 7 } {0 } }
+Alternative Solutions : 
+[{{2 4 6 7 },{1 3 5 8 9 },{0 },}
+]
+Nombre des Alternatives : 1
+Evaluations Alternative : 
+{16 }index alternative : 
+[<0, 16>, ]
+treated Solutions : 
+[{{2 4 7 8 9 },{0 3 5 },{1 6 },}
+{{0 5 },{2 4 7 8 9 },{1 3 6 },}
+{{1 },{0 3 5 8 9 },{2 4 6 7 },}
+]
+Nombre des Treated : 3
+Evaluations Treated : 
+{17 17 16 }index treated : 
+[<1, 17>, <2, 16>, ]
+NEW ITERATION
+	S0  : 
+{{1 3 5 8 9 } {2 4 6 7 } {0 } }
+Alternative Solutions : 
+[]
+Nombre des Alternatives : 0
+Evaluations Alternative : 
+{}index alternative : 
+[]
+treated Solutions : 
+[{{2 4 7 8 9 },{0 3 5 },{1 6 },}
+{{0 5 },{2 4 7 8 9 },{1 3 6 },}
+{{1 },{0 3 5 8 9 },{2 4 6 7 },}
+]
+Nombre des Treated : 3
+Evaluations Treated : 
+{17 17 16 }index treated : 
+[<1, 17>, <2, 16>, ]
+K = 
+[[1 2 -1 0 ] 
+[-1 2 1 0 ] 
+[2 -1 0 0 ] 
+[-1 3 0 0 ] 
+[2 -1 0 0 ] 
+[-1 3 0 0 ] 
+[3 -1 1 0 ] 
+[3 -1 1 0 ] 
+[-1 1 0 0 ] 
+[-1 1 0 0 ] 
+]
+B = 
+[[0 1 0 0 ] 
+[0 4 0 3 ] 
+[4 0 1 2 ] 
+[0 4 2 3 ] 
+[3 0 1 2 ] 
+[0 6 2 3 ] 
+[1 0 2 2 ] 
+[6 0 2 2 ] 
+[0 3 2 3 ] 
+[0 3 2 3 ] 
+]
+NS1 not empty
+Choix : 0	| 0
+NEW ITERATION
+	S0  : 
+{{0 3 5 8 9 } {2 4 6 7 } {1 } }
+Alternative Solutions : 
+[]
+Nombre des Alternatives : 0
+Evaluations Alternative : 
+{}index alternative : 
+[]
+treated Solutions : 
+[{{2 4 7 8 9 },{0 3 5 },{1 6 },}
+{{0 5 },{2 4 7 8 9 },{1 3 6 },}
+{{2 4 6 7 },{1 3 5 8 9 },{0 },}
+{{1 },{0 3 5 8 9 },{2 4 6 7 },}
+]
+Nombre des Treated : 4
+Evaluations Treated : 
+{17 17 16 16 }index treated : 
+[<1, 17>, <3, 16>, ]
+Amelioratif = 1
+Inutil = 3
+couteux = 0
+Interdit = 0
+Prometeux Fort 1 = 0
+Prometeux Fort 2 = 0
+Prometeux Faible 1 = 0
+Prometeux Faible 2 = 0
+S best : 
+{{0 3 5 8 9 } {2 4 6 7 } {1 } }
+cout best = 16
+Cardinalities : 
+{5 4 1 }Execution time : 0.14 sec
+Mean Execution time : 0.14 sec
+Number of detected Solutions : 4

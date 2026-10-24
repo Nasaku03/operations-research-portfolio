@@ -1,0 +1,48 @@
+ITER_MAX = 10
+ITER_EBTS = 100
+TABU_TENURE = 5
+i Global = 0
+	cout Z = 1121
+	cout Z0 = 1134
+i Global = 1
+	cout Z = 1090
+	cout Z0 = 1092
+i Global = 2
+	cout Z = 1084
+	cout Z0 = 1095
+i Global = 3
+	cout Z = 1084
+	cout Z0 = 1100
+i Global = 4
+	cout Z = 1084
+	cout Z0 = 1139
+i Global = 5
+	cout Z = 1084
+	cout Z0 = 1127
+i Global = 6
+	cout Z = 1084
+	cout Z0 = 1136
+i Global = 7
+	cout Z = 1084
+	cout Z0 = 1150
+i Global = 8
+	cout Z = 1084
+	cout Z0 = 1124
+i Global = 9
+	cout Z = 1084
+	cout Z0 = 1112
+Amelioratif = 51
+Inutil = 0
+couteux = 0
+Interdit = 0
+Prometeux Fort 1 = 315
+Prometeux Fort 2 = 344
+Prometeux Faible 1 = 171
+Prometeux Faible 2 = 119
+S best : 
+{{14 15 49 61 67 70 94 96 110 } {7 26 43 45 54 66 80 118 } {2 19 37 47 52 71 72 97 } {13 20 24 55 58 100 101 114 } {3 27 30 77 81 90 98 107 } {11 21 34 87 92 106 113 116 } {1 28 44 64 76 109 120 124 } {25 38 73 78 83 95 115 } {4 22 39 56 68 74 84 } {23 29 82 88 93 119 121 } {6 33 40 63 65 102 123 } {36 48 50 59 85 89 104 } {16 32 62 86 112 122 } {5 8 69 75 103 108 } {12 31 41 57 60 91 } {9 42 51 53 99 } {10 18 35 105 117 } {17 46 79 } {0 111 } }
+cout best = 1084
+Cardinalities : 
+{9 8 8 8 8 8 8 7 7 7 7 7 6 6 6 5 5 3 2 }
+Execution time : 14144.3 sec
+Mean Execution time : 1414.43 sec
